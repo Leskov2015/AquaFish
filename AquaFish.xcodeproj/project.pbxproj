@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F57A26E1C398CDC003475E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F57A26C1C398CDC003475E0 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6F57A26F1C398CDC003475E0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F57A26D1C398CDC003475E0 /* ViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		8453F45A1C21B99B007B7B48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453F4591C21B99B007B7B48 /* main.m */; };
 		8453F45D1C21B99B007B7B48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453F45C1C21B99B007B7B48 /* AppDelegate.m */; };
-		8453F4601C21B99B007B7B48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453F45F1C21B99B007B7B48 /* ViewController.m */; };
 		8453F4651C21B99B007B7B48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8453F4641C21B99B007B7B48 /* Images.xcassets */; };
 		8453F4681C21B99B007B7B48 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8453F4661C21B99B007B7B48 /* LaunchScreen.xib */; };
 		8453F4741C21B99B007B7B48 /* AquaFishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453F4731C21B99B007B7B48 /* AquaFishTests.m */; };
 		8453F4821C22CC98007B7B48 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8453F4811C22CC98007B7B48 /* CoreGraphics.framework */; };
 		8453F4841C22CCAB007B7B48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8453F4831C22CCAB007B7B48 /* UIKit.framework */; };
 		8453F4861C22CCBC007B7B48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8453F4851C22CCBC007B7B48 /* Foundation.framework */; };
-		8453F4881C22D4DF007B7B48 /* Good.png in Resources */ = {isa = PBXBuildFile; fileRef = 8453F4871C22D4DF007B7B48 /* Good.png */; };
 		8453F48B1C22F55C007B7B48 /* GoodFish.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453F48A1C22F55C007B7B48 /* GoodFish.m */; };
-		8453F48D1C22F6C3007B7B48 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8453F48C1C22F6C3007B7B48 /* ViewController.xib */; };
-		8453F48F1C22FA64007B7B48 /* Karas.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8453F48E1C22FA64007B7B48 /* Karas.jpeg */; };
-		8453F4951C22FDF0007B7B48 /* Bad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8453F4941C22FDF0007B7B48 /* Bad.png */; };
 		8453F4981C22FF8D007B7B48 /* BadFish.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453F4971C22FF8D007B7B48 /* BadFish.m */; };
 		8453F49C1C244698007B7B48 /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453F49B1C244698007B7B48 /* Fish.m */; };
+		8460BEA11C32D705003D5391 /* Aquarium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8460BEA01C32D705003D5391 /* Aquarium.jpg */; };
+		8460BEA31C32D716003D5391 /* Bad Fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 8460BEA21C32D716003D5391 /* Bad Fish.png */; };
+		8460BEA51C32D71D003D5391 /* Good Fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 8460BEA41C32D71D003D5391 /* Good Fish.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F57A26B1C398CDC003475E0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = aquafish/ViewController.h; sourceTree = SOURCE_ROOT; };
+		6F57A26C1C398CDC003475E0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = aquafish/ViewController.m; sourceTree = SOURCE_ROOT; };
+		6F57A26D1C398CDC003475E0 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = aquafish/ViewController.xib; sourceTree = SOURCE_ROOT; };
 		8453F4541C21B99B007B7B48 /* AquaFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquaFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8453F4581C21B99B007B7B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8453F4591C21B99B007B7B48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8453F45B1C21B99B007B7B48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8453F45C1C21B99B007B7B48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8453F45E1C21B99B007B7B48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8453F45F1C21B99B007B7B48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8453F4641C21B99B007B7B48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8453F4671C21B99B007B7B48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8453F46D1C21B99B007B7B48 /* AquaFishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AquaFishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,16 +52,15 @@
 		8453F4811C22CC98007B7B48 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8453F4831C22CCAB007B7B48 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8453F4851C22CCBC007B7B48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8453F4871C22D4DF007B7B48 /* Good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Good.png; path = ../../../../Downloads/Good.png; sourceTree = "<group>"; };
 		8453F4891C22F55C007B7B48 /* GoodFish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodFish.h; sourceTree = "<group>"; };
 		8453F48A1C22F55C007B7B48 /* GoodFish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodFish.m; sourceTree = "<group>"; };
-		8453F48C1C22F6C3007B7B48 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = ../../../../.Trash/ViewController.xib; sourceTree = "<group>"; };
-		8453F48E1C22FA64007B7B48 /* Karas.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Karas.jpeg; path = ../../../../Downloads/Karas.jpeg; sourceTree = "<group>"; };
-		8453F4941C22FDF0007B7B48 /* Bad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bad.png; path = ../../../../Downloads/Bad.png; sourceTree = "<group>"; };
 		8453F4961C22FF8D007B7B48 /* BadFish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadFish.h; sourceTree = "<group>"; };
 		8453F4971C22FF8D007B7B48 /* BadFish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadFish.m; sourceTree = "<group>"; };
 		8453F49A1C244698007B7B48 /* Fish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fish.h; sourceTree = "<group>"; };
 		8453F49B1C244698007B7B48 /* Fish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fish.m; sourceTree = "<group>"; };
+		8460BEA01C32D705003D5391 /* Aquarium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aquarium.jpg; sourceTree = SOURCE_ROOT; };
+		8460BEA21C32D716003D5391 /* Bad Fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bad Fish.png"; sourceTree = SOURCE_ROOT; };
+		8460BEA41C32D71D003D5391 /* Good Fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Good Fish.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +110,9 @@
 			children = (
 				8453F45B1C21B99B007B7B48 /* AppDelegate.h */,
 				8453F45C1C21B99B007B7B48 /* AppDelegate.m */,
-				8453F45E1C21B99B007B7B48 /* ViewController.h */,
-				8453F45F1C21B99B007B7B48 /* ViewController.m */,
-				8453F48C1C22F6C3007B7B48 /* ViewController.xib */,
+				6F57A26B1C398CDC003475E0 /* ViewController.h */,
+				6F57A26C1C398CDC003475E0 /* ViewController.m */,
+				6F57A26D1C398CDC003475E0 /* ViewController.xib */,
 				8453F4641C21B99B007B7B48 /* Images.xcassets */,
 				8453F4661C21B99B007B7B48 /* LaunchScreen.xib */,
 				8453F4991C22FFA1007B7B48 /* Fish */,
@@ -124,9 +124,9 @@
 		8453F4571C21B99B007B7B48 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8453F4871C22D4DF007B7B48 /* Good.png */,
-				8453F4941C22FDF0007B7B48 /* Bad.png */,
-				8453F48E1C22FA64007B7B48 /* Karas.jpeg */,
+				8460BEA01C32D705003D5391 /* Aquarium.jpg */,
+				8460BEA41C32D71D003D5391 /* Good Fish.png */,
+				8460BEA21C32D716003D5391 /* Bad Fish.png */,
 				8453F4581C21B99B007B7B48 /* Info.plist */,
 				8453F4591C21B99B007B7B48 /* main.m */,
 			);
@@ -219,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8453F44F1C21B99B007B7B48 /* Build configuration list for PBXProject "AquaFish" */;
+			buildConfigurationList = 8453F44F1C21B99B007B7B48 /* Build configuration list for PBXProject "aquafish" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -243,12 +243,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8453F48F1C22FA64007B7B48 /* Karas.jpeg in Resources */,
 				8453F4681C21B99B007B7B48 /* LaunchScreen.xib in Resources */,
-				8453F4881C22D4DF007B7B48 /* Good.png in Resources */,
-				8453F4951C22FDF0007B7B48 /* Bad.png in Resources */,
-				8453F48D1C22F6C3007B7B48 /* ViewController.xib in Resources */,
+				8460BEA11C32D705003D5391 /* Aquarium.jpg in Resources */,
 				8453F4651C21B99B007B7B48 /* Images.xcassets in Resources */,
+				8460BEA31C32D716003D5391 /* Bad Fish.png in Resources */,
+				6F57A26F1C398CDC003475E0 /* ViewController.xib in Resources */,
+				8460BEA51C32D71D003D5391 /* Good Fish.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F57A26E1C398CDC003475E0 /* ViewController.m in Sources */,
 				8453F4981C22FF8D007B7B48 /* BadFish.m in Sources */,
 				8453F48B1C22F55C007B7B48 /* GoodFish.m in Sources */,
-				8453F4601C21B99B007B7B48 /* ViewController.m in Sources */,
 				8453F49C1C244698007B7B48 /* Fish.m in Sources */,
 				8453F45D1C21B99B007B7B48 /* AppDelegate.m in Sources */,
 				8453F45A1C21B99B007B7B48 /* main.m in Sources */,
@@ -446,7 +446,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8453F44F1C21B99B007B7B48 /* Build configuration list for PBXProject "AquaFish" */ = {
+		8453F44F1C21B99B007B7B48 /* Build configuration list for PBXProject "aquafish" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8453F4751C21B99B007B7B48 /* Debug */,
