@@ -8,17 +8,21 @@
 
 #import <Foundation/Foundation.h>
 #import "ViewController.h"
+#import <QuartzCore/QuartzCore.h>
+#define fishHealth 450
 
-
-@interface Fish : NSObject
+@interface Fish : UIImageView
 {
     CGPoint fishSpeed;
+    NSInteger health;
+    UIProgressView *hpProgres;
 }
-@property (strong, nonatomic) UIImageView *fish;
-@property (strong, nonatomic) NSMutableArray *arrayForFish;
+@property (nonatomic) CGFloat rotate;
+- (void) test;
+- (void) test1;
+- (void) move;
+- (void) style;
+- (BOOL) stillAlive;
 
--(void) style;
-//-(void) swim;
--(instancetype) init;
 
 @end

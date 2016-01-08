@@ -1,4 +1,4 @@
-//
+//  self.rotate = self.rotate == 0.0f ? 1.0f : 0.0f;
 //  Fish.m
 //  AquaFish
 //
@@ -9,18 +9,59 @@
 #import "Fish.h"
 
 @implementation Fish
-@synthesize fish;
-@synthesize arrayForFish;
-//-(void)swim {fish.center = CGPointMake(fish.center.x + fishSpeed.x, fish.center.y + fishSpeed.y);}
+
+-(void) style{
+}
 
 -(instancetype)init
 {
-    UIImageView *imgFish = [[UIImageView alloc] initWithFrame:CGRectMake(10, 11, 42, 39)];
-    imgFish.image = [UIImage imageNamed:@"Karas.jpeg"];
-    [arrayForFish addObject:imgFish];
-    imgFish.center = CGPointMake(imgFish.center.x + fishSpeed.x, fish.center.y + fishSpeed.y);
-    self = [super init];
+    self = [super initWithFrame:CGRectMake(arc4random()%500, arc4random()%240, 47, 37)];
+    if (self) {
+        [self style];
+        self.rotate = 1.0f;
+        health = fishHealth;
+        hpProgres = [[UIProgressView alloc]initWithFrame:CGRectMake(8, CGRectGetWidth(self.frame), CGRectGetHeight(self.frame), 4)];
+        hpProgres.tintColor = [UIColor redColor];
+        [self addSubview:hpProgres];
+    }
     return self;
 }
+
+-(void)move
+{
+    CGFloat const limit = 10;
+    UIImageView *fishTexture = self;
+    fishTexture.center = CGPointMake(fishTexture.center.x + fishSpeed.x, fishTexture.center.y + fishSpeed.y);
+    if(fishTexture.center.x >=(CGRectGetWidth(self.superview.frame)-limit) || fishTexture.center.x <= limit){
+        fishSpeed.x = -fishSpeed.x;
+        fishTexture.layer.transform = CATransform3DMakeRotation(M_PI, 0.0f, self.rotate , 0.0f);
+        if (self.rotate == 0.0f) {
+            self.rotate = 1.0f;
+        }else{
+            self.rotate = 0.0f;
+        }
+    }
+    if (fishTexture.center.y >= (CGRectGetHeight(self.superview.frame)-limit -35) || fishTexture.center.y <= limit) {
+        fishSpeed.y = -fishSpeed.y;
+    }
+    hpProgres.progress = health * 1.0f/fishHealth;
+    health --;
+}
+
+-(BOOL)stillAlive
+{
+    return health > 0;
+}
+
+-(void)test
+{
+    [self addSubview:hpProgres];
+}
+
+-(void)test1
+{
+    [hpProgres removeFromSuperview];
+}
+
 
 @end
